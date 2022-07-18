@@ -1,2 +1,2 @@
 # gobackend
-A complete back-end project using Golang
+A complete back-end project using Golang from development of APIs to deployment. 
