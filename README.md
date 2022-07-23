@@ -13,3 +13,11 @@ make postgres
 make createdb
 make migrateup
 ```
+## CRUD operations Go Code generation
+```sh
+make sqlc
+```
+## perform basic unit tests.
+```sh
+make test
+```
