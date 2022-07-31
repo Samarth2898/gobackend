@@ -21,3 +21,7 @@ make sqlc
 ```sh
 make test
 ```
+## run API server
+```sh
+make server
+```
