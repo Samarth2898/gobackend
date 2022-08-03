@@ -25,3 +25,7 @@ make test
 ```sh
 make server
 ```
+## Generate DB mock with gomock
+```sh
+make mock
+```
