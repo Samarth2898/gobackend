@@ -7,7 +7,7 @@ import (
 
 // serve HTTP requests for banking service.
 type Server struct {
-	store db.Store
+	store  db.Store
 	router *gin.Engine
 }
 

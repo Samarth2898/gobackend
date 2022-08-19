@@ -14,7 +14,7 @@ func init() {
 
 // generates random integer between min and max
 func RandomInt(min, max int64) int64 {
-	return min + rand.Int63n(max - min + 1)
+	return min + rand.Int63n(max-min+1)
 }
 
 // generates random string of length n.
@@ -43,6 +43,6 @@ func RandomMoney() int64 {
 // generate a random currency code.
 func RandomCurrency() string {
 	currencies := []string{"INR", "USD", "EUR"}
-	n :=  len(currencies)
+	n := len(currencies)
 	return currencies[rand.Intn(n)]
 }

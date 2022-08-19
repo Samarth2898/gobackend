@@ -12,11 +12,11 @@ import (
 
 func main() {
 	config, err := util.LoadConfig(".")
-	if err!=nil {
-		log.Fatal("cannot load configuation: ",err)
+	if err != nil {
+		log.Fatal("cannot load configuation: ", err)
 	}
 	conn, err := sql.Open(config.DBDriver, config.DBSource)
-	if err!=nil{
+	if err != nil {
 		log.Fatal("cannot connect to database: ", err)
 	}
 
@@ -25,6 +25,6 @@ func main() {
 
 	err = server.Start(config.ServerAddress)
 	if err != nil {
-		log.Fatal("Cannot start server: ",err)
+		log.Fatal("Cannot start server: ", err)
 	}
 }
