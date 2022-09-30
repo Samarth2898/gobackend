@@ -26,7 +26,7 @@ jobs:
           - 5433:5432
     steps:
       - name: Checkout code into Go module directory
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Set up Go
         uses: actions/setup-go@v3
