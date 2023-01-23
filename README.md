@@ -1,5 +1,5 @@
 # gobackend
-A complete back-end project using Golang from development of APIs to deployment. 
+A complete back-end project to understand Golang, from development of APIs to deployment. 
 
 ## database schema for the project.
 
